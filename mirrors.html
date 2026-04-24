@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerhouse Mirrors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #0066FF;
+            --bg: #0d0e12;
+            --bg-image: url('https://raw.githubusercontent.com/ElliottC823/powerhouse/main/background-dark.svg');
+            --surface: #16181d;
+            --text: #f0f2f5;
+            --border: #2a2d35;
+            --radius: 12px;
+            --shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        * {
+            box-sizing: border-box;
+            transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.2s ease;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg);
+            background-image: var(--bg-image);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: var(--surface);
+            border: 3px solid var(--accent);
+            border-radius: var(--radius);
+            padding: 40px;
+            width: 100%;
+            max-width: 440px;
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+
+        .logo-container {
+            margin-bottom: 25px;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 20px;
+        }
+
+        .logo-img {
+            max-width: 280px;
+            height: auto;
+            filter: drop-shadow(0 0 10px rgba(0, 102, 255, 0.3));
+        }
+
+        h1 {
+            margin-top: 0;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            color: var(--text);
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .link-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .mirror-link {
+            display: block;
+            background: var(--bg);
+            border: 2px solid var(--border);
+            padding: 15px;
+            border-radius: var(--radius);
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 1rem;
+            box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+        }
+
+        .mirror-link:hover {
+            border-color: var(--accent);
+            transform: translate(-3px, -3px);
+            box-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+            color: var(--accent);
+        }
+
+        .broken {
+            color: #ff4444 !important;
+            opacity: 0.8;
+        }
+
+        .broken:hover {
+            border-color: #ff4444;
+            color: #ff4444 !important;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.7rem;
+            font-weight: 900;
+            opacity: 0.5;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-container">
+            <img src="https://raw.githubusercontent.com/ElliottC823/powerhouse/main/POWERHOUSE-dark.png" alt="Powerhouse" class="logo-img">
+        </div>
+        
+        <h1>Mirror Links</h1>
+        
+        <div class="link-list">
+            <a href="https://powerhouse.elliottc1120.workers.dev/" target="_blank" class="mirror-link">Cloudflare (Main)</a>
+            <a href="https://sites.google.com/view/powerhousehub/" target="_blank" class="mirror-link">Google Sites</a>
+            <a href="https://powerhousehub.netlify.app/" target="_blank" class="mirror-link broken">Netlify (Broken)</a>
+        </div>
+
+        <div class="footer">
+            Powerhouse V1.4.33
+        </div>
+    </div>
+
+</body>
+</html>
