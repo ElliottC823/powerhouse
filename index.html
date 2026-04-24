@@ -348,7 +348,7 @@
     const tutorialContent = [
         { title: "Welcome!", text: "Welcome to Powerhouse, your ultimate game hub. Let's quickly show you the features!", target: null },
         { title: "Search & View", text: "Use this area to search for specific games or switch between Grid and List views.", target: "controls-guide" },
-        { title: "Filters", text: "Filter games by category or Verified status to find exactly what you're looking for.", target: "filterBar" },
+        { title: "Filters", text: "Filter games by category or Unblocked status to find exactly what you're looking for.", target: "filterBar" },
         { title: "Customization", text: "Click the gear icon to access Dark Mode, custom accent colors, and more!", target: "settings-guide" },
         { title: "Ready to Play?", text: "That's it! Enjoy the collection. Click any card to launch a game.", target: null }
     ];
@@ -392,7 +392,7 @@
     function renderFilters() {
         const bar = document.getElementById('filterBar');
         // Added 'VERIFIED' explicitly to the filter list
-        const cats = ['ALL', 'VERIFIED', ...new Set(games.map(g => g.category.toUpperCase()))];
+        const cats = ['ALL', 'Unblocked', ...new Set(games.map(g => g.category.toUpperCase()))];
         bar.innerHTML = cats.map(c => `
             <button class="filter-btn ${currentFilter === c ? 'active' : ''}" 
                     onclick="setFilter('${c}')">${c}</button>
