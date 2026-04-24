@@ -395,7 +395,7 @@
     "title": "Retro Rush",
     "category": "Racing",
     "desc": "A fast-paced neon driving game where you dodge traffic and race against the clock.",
-    "thumb": "https://geometrylitepc.io/data/image/game/retro-rush.jpg",
+    "thumb": "https://store-images.s-microsoft.com/image/apps.52831.13894313373290055.755c0d8b-3d2e-4002-92cb-11aff86c00d1.0df3019c-4752-4778-88ba-d1d7470765df?q=90&w=480&h=270",
     "link": "https://azgames.io/retro-rush",
     "verified": false
   },
