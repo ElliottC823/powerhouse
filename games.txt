@@ -454,5 +454,13 @@
     "thumb": "https://www.coolmathgames.com/themes/custom/coolmath/logo-stacked.svg",
     "link": "https://www.coolmathgames.com",
     "verified": true
+  },
+{
+    "title": "Jelly Mario",
+    "category": "Games",
+    "desc": "A trippy, physics-based reimagining of Super Mario Bros where everything is made of jelly.",
+    "thumb": "https://i.ytimg.com/vi/m5nhNLva3D8/maxresdefault.jpg",
+    "link": "https://jellymar.io/",
+    "verified": true
   }
 ]
