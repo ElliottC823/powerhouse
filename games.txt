@@ -37,7 +37,7 @@
     "desc": "Carefully aim your thorns to pop all the balloons in this physics puzzle.",
     "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSir1FUeE9ing_c6KHg3n7SMIj3OdTdfbAjQ&s",
     "link": "https://learn-duck.firebaseapp.com/class/thorns-and-ballons",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Neal.Fun",
@@ -61,7 +61,7 @@
     "desc": "Launch your golf ball into space in this satisfying arcade sports game.",
     "thumb": "https://i.ytimg.com/vi/RS43Yz9sSC0/maxresdefault.jpg",
     "link": "https://gamesnacks.com/games/7e0r297sgk0j0",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Watch Documentaries Games",
@@ -69,7 +69,7 @@
     "desc": "Real and good games on a educational website.",
     "thumb": "https://watchdocumentaries.com/wp-content/uploads/Logo.png",
     "link": "https://watchdocumentaries.com/games/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Tiny Fishing",
@@ -109,7 +109,7 @@
     "desc": "Google's powerful AI model for creative and technical assistance.",
     "thumb": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:260,cw:1576,ch:1182,q:80,w:1576/gHfBJ6FBHKnLbW36hEDvgV.png",
     "link": "https://gemini.google.com/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Fake Skyward",
@@ -157,7 +157,7 @@
     "desc": "Tech exploration and fascinating experiments with optical media.",
     "thumb": "https://yt3.googleusercontent.com/-7Piy98dHWRxfq_L7HGbHjwtztsEk-Jea4CQjbuKupyQnHBwIv8W-AbkNBNgM_l1rfYGXf4p=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
     "link": "https://www.youtube.com/@BringusStudios/featured",
-    "verified": true
+    "verified": false
   },
   {
     "title": "M&Jmetal",
@@ -205,7 +205,7 @@
     "desc": "A massive collection of interactive Google Doodles, including Pac-Man, Cricket, and more.",
     "thumb": "https://images.netcomlearning.com/cms/images/google-baseball-doodle.jpg",
     "link": "https://www.google.com/search?q=google+doodle+games",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Sandboxels",
@@ -213,7 +213,7 @@
     "desc": "A falling sand physics simulator with over 500 elements.",
     "thumb": "https://neal.fun/link-images/sandboxels.svg",
     "link": "https://neal.fun/sandboxels/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "I'm Not a Robot",
@@ -221,7 +221,7 @@
     "desc": "Solve increasingly difficult CAPTCHAs to prove your humanity.",
     "thumb": "https://neal.fun/link-images/not-a-robot.svg",
     "link": "https://neal.fun/not-a-robot/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Stimulation Clicker",
@@ -229,7 +229,7 @@
     "desc": "An idle clicker designed to provide maximum sensory satisfaction.",
     "thumb": "https://neal.fun/link-images/stimulation-clicker.svg",
     "link": "https://neal.fun/stimulation-clicker/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Infinite Craft",
@@ -245,7 +245,7 @@
     "desc": "Follow increasingly absurd rules to create the ultimate password.",
     "thumb": "https://neal.fun/link-images/password-game.svg",
     "link": "https://neal.fun/password-game/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Draw a Perfect Circle",
@@ -253,7 +253,7 @@
     "desc": "Test your steady hand and try to draw a perfect circle.",
     "thumb": "https://neal.fun/link-images/perfect-circle.svg",
     "link": "https://neal.fun/perfect-circle/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Absurd Trolley Problems",
@@ -261,7 +261,7 @@
     "desc": "Make difficult choices in increasingly ridiculous trolley scenarios.",
     "thumb": "https://neal.fun/link-images/absurd-trolley-problems.svg",
     "link": "https://neal.fun/absurd-trolley-problems/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Design the Next iPhone",
@@ -269,7 +269,7 @@
     "desc": "Take control of Apple's design and create the future of smartphones.",
     "thumb": "https://neal.fun/link-images/design-the-next-iphone.svg",
     "link": "https://neal.fun/design-the-next-iphone/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Let's Settle This",
@@ -277,7 +277,7 @@
     "desc": "Vote on the Internet's most debated questions and see where you stand.",
     "thumb": "https://neal.fun/link-images/lets-settle-this.svg",
     "link": "https://neal.fun/lets-settle-this/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "The Auction Game",
@@ -285,7 +285,7 @@
     "desc": "Guess the prices of items sold at high-stakes auctions.",
     "thumb": "https://neal.fun/link-images/auction-game.svg",
     "link": "https://neal.fun/auction-game/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Draw Logos from Memory",
@@ -293,7 +293,7 @@
     "desc": "How well do you remember the world's most famous logos?",
     "thumb": "https://neal.fun/link-images/logos-from-memory.svg",
     "link": "https://neal.fun/logos-from-memory/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Asteroid Launcher",
@@ -301,7 +301,7 @@
     "desc": "Design your own asteroid and simulate its impact on Earth.",
     "thumb": "https://neal.fun/link-images/asteroid-launcher.svg",
     "link": "https://neal.fun/asteroid-launcher/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Survival Race",
@@ -309,7 +309,7 @@
     "desc": "Race through dangerous terrain and survive the obstacles.",
     "thumb": "https://watchdocumentaries.com/wp-content/uploads/survival-race-game-360x203.jpg",
     "link": "https://watchdocumentaries.com/survival-race-game/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Snow Rider 3D",
@@ -317,7 +317,7 @@
     "desc": "Ride your sleigh through a snowy mountain path in 3D.",
     "thumb": "https://watchdocumentaries.com/wp-content/uploads/snow-rider-3d-game-360x203.jpg",
     "link": "https://watchdocumentaries.com/snow-rider-3d-game/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "PolyTrack",
@@ -325,7 +325,7 @@
     "desc": "Low-poly racing action with high-speed tracks.",
     "thumb": "https://watchdocumentaries.com/wp-content/uploads/polytrack-game-360x203.jpg",
     "link": "https://watchdocumentaries.com/polytrack-game/?p=0",
-    "verified": false
+    "verified": true
   },
   {
     "title": "DriveMad",
@@ -341,7 +341,7 @@
     "desc": "A fast-paced ball rolling game with endless geometric slopes.",
     "thumb": "https://watchdocumentaries.com/wp-content/uploads/slope-game-360x203.jpg",
     "link": "https://watchdocumentaries.com/slope-game/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Slope 2",
@@ -349,7 +349,7 @@
     "desc": "The thrilling sequel to Slope with even more speed and challenges.",
     "thumb": "https://watchdocumentaries.com/wp-content/uploads/slope-2-game-360x203.jpg",
     "link": "https://watchdocumentaries.com/slope-2-game/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Slope 3",
@@ -357,7 +357,7 @@
     "desc": "Master the slopes in this third installment of the gravity-defying series.",
     "thumb": "https://watchdocumentaries.com/wp-content/uploads/slope-3-game-360x203.jpg",
     "link": "https://watchdocumentaries.com/slope-3-game/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Moto X3M",
@@ -365,7 +365,7 @@
     "desc": "Stunt-based motocross racing with over 20 intense levels.",
     "thumb": "https://watchdocumentaries.com/wp-content/uploads/moto-x3m-game-360x203.jpg",
     "link": "https://watchdocumentaries.com/moto-x3m-game/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Highway Traffic",
@@ -373,7 +373,7 @@
     "desc": "Avoid traffic and race at high speeds on the open highway.",
     "thumb": "https://watchdocumentaries.com/wp-content/uploads/highway-traffic-game-360x203.jpg",
     "link": "https://watchdocumentaries.com/highway-traffic-game/",
-    "verified": false
+    "verified": true
   },
   {
     "title": "GeoFS",
@@ -389,7 +389,7 @@
     "desc": "A fast-paced survival game where you must stay above the line while navigating the desert dunes.",
     "thumb": "https://cdn.jsdelivr.net/gh/mathlesson/mathlesson.github.io/img/dune.jpg",
     "link": "https://learn-duck.firebaseapp.com/class/dune",
-    "verified": false
+    "verified": true
   },
   {
     "title": "Retro Rush",
