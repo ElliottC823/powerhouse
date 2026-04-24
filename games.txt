@@ -440,11 +440,11 @@
     "verified": false
   },
   {
-  "title": "Crazy Games Unblocked",
-  "category": "Hub",
-  "desc": "A massive collection of unblocked web games.",
-  "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQce-fV2tLroJJHvFVCKSvKU4sV-Hc7kh9EIw&s",
-  "link": "https://crazygamesunblocked.net/",
-  "verified": true
+    "title": "Crazy Games Unblocked",
+    "category": "Hub",
+    "desc": "A massive collection of unblocked web games.",
+    "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQce-fV2tLroJJHvFVCKSvKU4sV-Hc7kh9EIw&s",
+    "link": "https://crazygamesunblocked.net/",
+    "verified": true
 }
 ]
