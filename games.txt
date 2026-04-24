@@ -379,7 +379,7 @@
     "title": "GeoFS",
     "category": "Simulator",
     "desc": "A multiplayer flight simulator with a global environment generated from satellite images and digital geographic data.",
-    "thumb": "https://www.geo-fs.com/images/cover.jpg",
+    "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy2rCMHiXjK2vD4e6XL-uDV2bpWaYSfZLZiw&s",
     "link": "https://www.geo-fs.com/geofs.php",
     "verified": false
   },
