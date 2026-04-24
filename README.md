@@ -1,1 +1,1 @@
-Powerhouse is an open-source html based games hub.
+Powerhouse is an open-source HTML based games hub.
