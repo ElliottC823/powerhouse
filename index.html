@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -428,34 +427,53 @@
     function showBanner() { document.getElementById('message-banner').classList.remove('banner-hidden'); }
     function hideBanner() { document.getElementById('message-banner').classList.add('banner-hidden'); }
 
-// This sets the message and color, then shows it
-setBanner("Powerhouse, courtesy of C823, Grandpa Joey, Stein, and KC.", "#0066FF");
-showBanner();
+
 
     // Consolidated data fetching for games and about text
+    // Consolidated data fetching for games, about text, and banner
     async function fetchData() {
         try {
-            // Fetch Games
+            // 1. Fetch Banner Settings from banner.txt
+            try {
+                const bRes = await fetch('https://raw.githubusercontent.com/ElliottC823/powerhouse/main/banner.txt');
+                if (bRes.ok) {
+                    const bRaw = await bRes.text();
+                    // Split by the | character
+                    const [status, message, color] = bRaw.split('|');
+                    
+                    if (status && status.trim().toUpperCase() === 'ENABLED') {
+                        setBanner(message ? message.trim() : "Welcome!", color ? color.trim() : "#0066FF");
+                        showBanner();
+                    } else {
+                        hideBanner();
+                    }
+                }
+            } catch (e) { 
+                console.error("Banner fetch failed:", e);
+                hideBanner(); // Hide if file is missing or broken
+            }
+
+            // 2. Fetch Games
             const gamesResponse = await fetch('https://raw.githubusercontent.com/ElliottC823/powerhouse/main/games.txt');
             if (!gamesResponse.ok) throw new Error('Could not find games.txt');
             games = await gamesResponse.json();
             
-            // Fetch About Text
+            // 3. Fetch About Text
             const aboutResponse = await fetch('https://raw.githubusercontent.com/ElliottC823/powerhouse/main/about.txt');
             if (aboutResponse.ok) {
                 const aboutContent = await aboutResponse.text();
                 document.getElementById('aboutText').innerText = aboutContent;
-            } else {
-                document.getElementById('aboutText').innerText = "Powerhouse is a custom-built game hub full of unblocked games, and websites to annoy teachers.";
             }
 
             renderFilters();
             renderGames();
         } catch (error) {
             console.error("Error loading data:", error);
-            document.getElementById('game-grid').innerHTML = `<p style="text-align:center; padding: 50px;">Failed to load hub data. Check console for details.</p>`;
+            document.getElementById('game-grid').innerHTML = `<p style="text-align:center; padding: 50px;">Failed to load hub data.</p>`;
         }
     }
+
+    // REMOVE the old hardcoded setBanner/showBanner lines that were here
 
     function toggleSettings() { document.getElementById('settingsMenu').classList.toggle('show'); }
 
