@@ -52,8 +52,8 @@
     "category": "Arcade",
     "desc": "Ride the rhythmic waves in space. Simple controls, difficult mastery.",
     "thumb": "https://i.ytimg.com/vi/0L885f9nUI8/maxresdefault.jpg",
-    "link": "https://spacewaves.io/",
-    "verified": false
+    "link": "https://crazygamesunblocked.net/space-waves",
+    "verified": true
   },
   {
     "title": "Golf Orbit",
