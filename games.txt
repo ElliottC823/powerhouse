@@ -436,7 +436,7 @@
     "category": "Arcade",
     "desc": "The iconic tile-matching puzzle game. Arrange falling blocks to clear lines and rack up a high score.",
     "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKQW-AK-RBkoEJ6rhyMkZi0cEJU93LNZdbUg&s",
-    "link": "https://www.freetetris.org/",
+    "link": "https://www.edslap.com/amusements/Games/tetris/tetris.html",
     "verified": false
   },
   {
